@@ -1,0 +1,33 @@
+# ---- Keil MDK 编译中间文件 ----
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.htm
+*.sct
+*.iex
+*.scvd
+*.uvguix.*
+*.bak
+*.__i
+*._ia
+*.build_log.htm
+
+# ---- CubeMX 生成的库（体积大、可由 .ioc 重新生成）----
+# 想让它能直接编译，就把下面两行注释掉
+Drivers/
+
+# ---- 系统垃圾 ----
+Thumbs.db
+desktop.ini
+.DS_Store
